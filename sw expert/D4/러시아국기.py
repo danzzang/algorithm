@@ -16,34 +16,37 @@ import sys
 sys.stdin = open('input_러시아국기.txt', 'r')
 
 T = int(input())
-print(T)
 
-for test in range(T):
+for test in range(1, T+1):
   n, m = map(int, input().split())
   arr = [list(input()) for _ in range(n)]
+  cnt = 0
+  minimum = 2500
 
-  w_num = b_num = r_num = 0
+  # 흰색, 파란색, 빨간색의 조합을 다 해봐야한다
 
-  for x in range(len(arr)):
-    print(arr[x])
+  # 하얀색은 최소 0부터 최대 len(arr)-2 까지
+  for x in range(0, len(arr)-2):
+    # 파란색은 흰색 다음부터 최대 len(arr)-1 까지
+    for y in range(x+1, len(arr)-1):
+      cnt = 0
+      # 흰색부터 계산해보자
+      for w in range(0, x+1):
+        for c in range(len(arr[w])):
+          if arr[w][c] != 'W':
+            cnt += 1
 
-  # 맨 윗줄 흰색으로 만들기
-  for x in range(len(arr)):
-    if arr[0][x] != 'W':
-      w_num += 1
+      for b in range(x+1, y+1):
+        for c in range(len(arr[b])):
+          if arr[b][c] != 'B':
+            cnt += 1
 
-  # 맨 아래줄 빨간색으로 만들기
-  for x in range(len(arr)):
-    if arr[-1][x] != 'R':
-      r_num += 1
+      for r in range(y+1, len(arr)):
+        for c in range(len(arr[r])):
+          if arr[r][c] != 'R':
+            cnt += 1
 
-  # 가운데에서 파란색 한 줄 이상 만들면서 최솟값 찾기
-  # 파란색 위는 흰색, 아래는 빨간색
-  # 파란색이 한 줄일때 부터 쫙 확인해야겠네 ?
+      if cnt <= minimum:
+        minimum = cnt
 
-  for x in range(1, len(arr)-1):
-    b_line = x
-
-    for r in range(1, len(arr)-1):
-      for c in range(len(arr[r])):
-
+  print('#{} {}'.format(test, minimum))
