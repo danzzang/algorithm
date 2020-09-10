@@ -42,20 +42,20 @@
     <session id="1495625159">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3205" />
+          <entry key="py" value="3402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3205" />
+          <entry key="Python" value="3402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,7 +73,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/D5/상원이의생일파티.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,6 +114,7 @@
         <option value="$PROJECT_DIR$/D4/input_ladder1.txt" />
         <option value="$PROJECT_DIR$/D4/ladder1.py" />
         <option value="$PROJECT_DIR$/D4/ladder2.py" />
+        <option value="$PROJECT_DIR$/D5/상원이의생일파티.py" />
       </list>
     </option>
   </component>
@@ -142,6 +153,11 @@
             <path>
               <item name="sw expert" type="b2602c69:ProjectViewProjectNode" />
               <item name="sw expert" type="462c0819:PsiDirectoryNode" />
+              <item name="D5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sw expert" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sw expert" type="462c0819:PsiDirectoryNode" />
               <item name="모의SW 테스트" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -172,8 +188,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ladder1">
-    <configuration name="러시아국기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.상원이의생일파티">
+    <configuration name="상원이의생일파티" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw expert" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +197,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\multicampus\Desktop\알고리즘-git\sw expert\D4\러시아국기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D5/상원이의생일파티.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,19 +358,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.러시아국기" />
       <item itemvalue="Python.원재의_메모리복구" />
       <item itemvalue="Python.(풀이중)길찾기" />
       <item itemvalue="Python.미로1" />
       <item itemvalue="Python.ladder1" />
+      <item itemvalue="Python.상원이의생일파티" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.상원이의생일파티" />
         <item itemvalue="Python.ladder1" />
         <item itemvalue="Python.미로1" />
         <item itemvalue="Python.(풀이중)길찾기" />
         <item itemvalue="Python.원재의_메모리복구" />
-        <item itemvalue="Python.러시아국기" />
       </list>
     </recent_temporary>
   </component>
@@ -374,12 +390,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24653007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24653007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08664773" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30823863" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,13 +542,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/모의SW 테스트/숫자만들기(풀이중).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/모의SW 테스트/요리사.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -555,6 +565,13 @@
           <folding>
             <marker date="1598594172791" expanded="true" signature="117:438" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D5/상원이의생일파티.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
