@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="706863e6-c501-4171-b098-5b3ba3b1f460" name="Default Changelist" comment="" />
+    <list default="true" id="706863e6-c501-4171-b098-5b3ba3b1f460" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/모의SW 테스트/특이한 자석.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/(풀이중)알파벳.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../백준/input_알파벳.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../백준/알파벳.py" beforeDir="false" afterPath="$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,43 +47,53 @@
     <session id="1495625159">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3402" />
+          <entry key="py" value="5581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3402" />
+          <entry key="Python" value="5581" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="18" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D5/상원이의생일파티.py">
+        <entry file="file://$PROJECT_DIR$/모의SW 테스트/특이한 자석.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="441">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -107,7 +122,6 @@
         <option value="$PROJECT_DIR$/D3/input_의석이세로.txt" />
         <option value="$PROJECT_DIR$/D3/의석이세로.py" />
         <option value="$PROJECT_DIR$/D4/(풀이중)길찾기.py" />
-        <option value="$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt" />
         <option value="$PROJECT_DIR$/모의SW 테스트/특이한자석.py" />
         <option value="$PROJECT_DIR$/D4/input_미로1.txt" />
         <option value="$PROJECT_DIR$/D4/미로1.py" />
@@ -115,13 +129,15 @@
         <option value="$PROJECT_DIR$/D4/ladder1.py" />
         <option value="$PROJECT_DIR$/D4/ladder2.py" />
         <option value="$PROJECT_DIR$/D5/상원이의생일파티.py" />
+        <option value="$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt" />
+        <option value="$PROJECT_DIR$/모의SW 테스트/특이한 자석.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="945" />
-    <option name="width" value="985" />
-    <option name="height" value="1040" />
+    <option name="x" value="764" />
+    <option name="width" value="772" />
+    <option name="height" value="750" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -143,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +181,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +204,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.상원이의생일파티">
+  <component name="RunManager" selected="Python.특이한 자석">
+    <configuration name="특이한 자석" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sw expert" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/모의SW 테스트" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/모의SW 테스트/특이한 자석.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="상원이의생일파티" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw expert" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,27 +331,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="원재의_메모리복구" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sw expert" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D3/원재의_메모리복구.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="(풀이중)길찾기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sw expert" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,19 +374,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.원재의_메모리복구" />
       <item itemvalue="Python.(풀이중)길찾기" />
       <item itemvalue="Python.미로1" />
       <item itemvalue="Python.ladder1" />
       <item itemvalue="Python.상원이의생일파티" />
+      <item itemvalue="Python.특이한 자석" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.특이한 자석" />
         <item itemvalue="Python.상원이의생일파티" />
         <item itemvalue="Python.ladder1" />
         <item itemvalue="Python.미로1" />
         <item itemvalue="Python.(풀이중)길찾기" />
-        <item itemvalue="Python.원재의_메모리복구" />
       </list>
     </recent_temporary>
   </component>
@@ -388,14 +404,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24653007" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24653007" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30823863" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08794788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,7 +481,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/모의SW 테스트/특이한자석.py" />
-    <entry file="file://$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt" />
     <entry file="file://$PROJECT_DIR$/D4/input_ladder1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1824">
@@ -571,7 +586,21 @@
     <entry file="file://$PROJECT_DIR$/D5/상원이의생일파티.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의SW 테스트/input_특이한자석.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/모의SW 테스트/특이한 자석.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
         </state>
       </provider>
     </entry>
