@@ -1,3 +1,5 @@
+
+# -*- coding: utf-8 -*- 
 import sys
 from itertools import combinations
 sys.stdin = open('input_요리사.txt', 'r')
